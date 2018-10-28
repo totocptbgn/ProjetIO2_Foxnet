@@ -1,6 +1,5 @@
 
-![FoxNet](https://i.imgur.com/VulpSNo.gif)
-# 
+# FoxNet 
 
 Foxnet is a tiny social network created for a web school project.
 For more details read the report of the project is [here](https://gist.github.com/totocptbgn/7715583bf21ee8f883051f6eb34e47fc).
