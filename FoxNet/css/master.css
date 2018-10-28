@@ -1,0 +1,115 @@
+/* Animation Background */
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+/* Fonts */
+
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: 400;
+  src: local('VT323 Regular'), local('VT323-Regular'), url(https://fonts.gstatic.com/s/vt323/v9/pxiKyp0ihIEF2isQFJXGdg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: 400;
+  src: local('VT323 Regular'), local('VT323-Regular'), url(https://fonts.gstatic.com/s/vt323/v9/pxiKyp0ihIEF2isRFJXGdg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: 400;
+  src: local('VT323 Regular'), local('VT323-Regular'), url(https://fonts.gstatic.com/s/vt323/v9/pxiKyp0ihIEF2isfFJU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Background */
+html {
+	height: 100%;
+}
+body  {
+  margin: 0;
+  font-family: VT323;
+  background-image: url(../img/footer-bg.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x-z;
+  animation: animatedBackground 20s linear infinite;
+	min-height: 100%;
+}
+
+/* Header */
+
+div.header {
+	font-family: VT323;
+  position: sticky;
+  top: 0;
+  height: 40px; width: 100%;
+  background-color: #1c1c1c;
+	z-index: 1000;
+}
+
+img.header {
+  width: 110px;
+  margin: 7px;
+	float: left;
+}
+
+#headerTitle {
+	float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 10px;
+	font-size: 140%;
+}
+
+#leave {
+	box-sizing: border-box;
+  height: 35px;
+  float: right;
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 7px 10px;
+	text-decoration: none;
+  font-size: 140%;
+}
+
+#leave:hover {
+	color: white;
+	transition: .3s;
+}
+
+.buttonHeader {
+	box-sizing: border-box;
+  float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 7px 10px;
+	text-decoration: none;
+  font-size: 140%;
+}
+
+.buttonHeader:hover {
+	color: orange;
+}
+
+/* Others */
+
+.annonce {
+  font-family: VT323;
+  font-size: 150%;
+  color: white;
+  text-align: center;
+}
+
+*:hover {
+transition: .3s;
+}

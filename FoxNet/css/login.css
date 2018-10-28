@@ -1,0 +1,105 @@
+
+/* Login Header Button */
+#log-in {
+  box-sizing: border-box;
+  height: 35px;
+  float: right;
+	display: block;
+	color: green;
+	text-align: center;
+	padding: 7px 10px;
+	text-decoration: none;
+  font-size: 140%;
+}
+
+#log-in:hover {
+  color: white;
+}
+
+/* Form */
+form {
+	color: white;
+  display: block;
+}
+
+span.vt323 {
+  font-family: VT323;
+  font-size: 150%;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 5px 15px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: #9b9b9b;
+  border-bottom: 2px solid #db750f ;
+  font-family: VT323;
+  font-size: 130%;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  border-bottom: 3px solid #ffae00;
+}
+
+input[type=submit] {
+  color: #db750f;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 7px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 130%;
+  font-family: VT323;
+  border-radius: 3px;
+  border: 2px solid #db750f;
+}
+
+input[type=submit]:focus, input[type=submit]:hover {
+  background-color: #db750f;
+  color: white;
+}
+
+.submit{
+  text-align: center;
+}
+
+/* Error */
+.error{
+	color: #9b9b9b;
+  text-align: center;
+  width: 100%;
+  font-family: VT323, monospace;
+  font-size: 100%;
+}
+
+/* Flex */
+.container {
+	margin: 0;
+	display: flex;
+}
+
+.container > div {
+  flex: 1;
+}
+
+.container > div:nth-child(2){
+	flex: 3;
+}
+
+/* FoxNet Logo */
+#title {
+  max-width: 40%;
+  min-width: 40%;
+}
+
+#logo {
+  max-width: 15%;
+  min-width: 15%;
+  margin-left: 22.5%;
+}
+.title {
+  width: 100%;
+}

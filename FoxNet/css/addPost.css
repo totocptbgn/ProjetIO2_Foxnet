@@ -1,0 +1,73 @@
+/* Form */
+form {
+	color: white;
+  display: block;
+}
+
+span.vt323 {
+  font-family: VT323;
+  font-size: 150%;
+}
+
+textarea {
+  width: 100%;
+  padding: 5px 15px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: #9b9b9b;
+  border-bottom: 2px solid #db750f ;
+  font-family: VT323;
+  font-size: 130%;
+}
+
+textarea:focus {
+  border-bottom: 3px solid #ffae00;
+}
+
+input[type=submit] {
+  color: #db750f;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 7px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 130%;
+  font-family: VT323;
+  border-radius: 3px;
+  border: 2px solid #db750f;
+}
+
+input[type=submit]:focus, input[type=submit]:hover {
+  background-color: #db750f;
+  color: white;
+}
+
+.submit{
+  margin-top: 5%;
+  text-align: center;
+}
+
+/* Error */
+.error{
+	color: #ffae00;
+  text-align: center;
+  width: 100%;
+  font-family: VT323, monospace;
+  font-size: 140%;
+}
+
+/* Flex */
+.container {
+	margin: 0;
+	display: flex;
+}
+
+.container > div {
+  flex: 1;
+}
+
+.container > div:nth-child(2){
+	flex: 3;
+}

@@ -1,0 +1,78 @@
+.feed {
+  font-size: 150%;
+  color: white;
+  text-align: center;
+}
+
+.feedType {
+  display: block;
+  font-size: 200%;
+	text-align: left;
+	padding-left: 20%;
+	margin-top: 2%;
+  text-decoration: none;
+  color: white;
+}
+
+div.post {
+	background-color: #1c1c1c;
+	border-radius: 10px;
+	color: black;
+	width: 60%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+div.titlePost {
+	height: 23px;
+	padding: 0px 6px;
+}
+
+div.content {
+	background-color: #d8d0a4;
+	border-radius: 0px 0px 10px 10px;
+}
+
+span.content {
+	padding: 20px;
+	display: block;
+}
+
+div.content:hover {
+	background-color: white;
+}
+
+span.author {
+	float: left;
+ 	font-size: 80%;
+	color: white;
+}
+
+.authorLogin {
+	text-decoration: none;
+	color: white;
+}
+
+.authorLogin:hover {
+	color: orange;
+}
+
+span.fullName {
+	color: #444444;
+}
+
+span.date {
+	float: right;
+	font-size: 80%;
+	color: white;
+}
+
+span.id {
+	font-size: 70%;
+	color: #998b37;
+	float: right;
+	position: relative;
+	bottom: 18px;
+	right: 5px;
+}

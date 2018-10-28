@@ -1,0 +1,107 @@
+body {
+	margin-bottom: 1%;
+}
+
+div.top {
+	padding: 0% 10%;
+	margin-top: 2%;
+  color: white;
+  margin-top: 2%;
+}
+
+span.name {
+	font-size: 600%;
+}
+
+span.follow {
+  font-size: 250%;
+	display: block;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+span.info {
+	opacity: 0.5;
+	font-size: 90%;
+}
+
+a.buttonFollow {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 4px 17px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 220%;
+  border-radius: 3px;
+  border: 4px solid white;
+	width: 200px;
+	float: right;
+	position: relative;
+	top: 30px;
+	display: block;
+	color: white;
+}
+
+a.buttonFollow:hover {
+	background-color: white;
+  color: rgba(0, 0, 0, 1);
+}
+
+a.buttonUnfollow {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 4px 17px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 220%;
+  border-radius: 3px;
+  border: 4px solid orange;
+	width: 200px;
+	float: right;
+	position: relative;
+	top: 30px;
+	display: block;
+	color: orange;
+}
+
+a.buttonUnfollow:hover {
+	background-color: orange;
+  color: white;
+}
+
+.delete {
+	text-decoration: none;
+  font-weight: bold;
+	color: #8c1000;
+	position: relative;
+	right: 4px;
+}
+
+.delete:before {
+	content: "DELETE";
+}
+
+.delete:hover:before {
+	color: red;
+	content: "DELETE THIS POST";
+}
+
+.endAccount {
+	text-decoration: none;
+  font-weight: bold;
+	color: #8c1000;
+}
+
+.endAccount:before {
+	content: "DELETE MY ACCOUNT";
+}
+
+.endAccount:hover:before {
+	color: red;
+	content: "DELETE MY ACCOUNT AND ALL MY POSTS (FOREVER !)";
+}
+
+#subscribers, #followers {
+	width: 50%;
+	display: none;
+	font-size: 70%;
+	position: relative; left:100px;
+}
