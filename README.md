@@ -1,5 +1,5 @@
 
-![FoxNet](https://raw.githubusercontent.com/totocptbgn/ProjetIO2_Foxnet/master/FoxNet/img/BannerFull.png)
+![FoxNet](https://i.imgur.com/VulpSNo.gif)
 # 
 
 Foxnet is a tiny social network created for a web school project.
